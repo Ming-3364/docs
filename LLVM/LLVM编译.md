@@ -4,7 +4,7 @@
 cmake -S llvm -B build -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLLVM_USE_LINKER=gold -DLLVM_PARALLEL_COMPILE_JOBS=4 -DLLVM_PARALLEL_LINK_JOBS=4 -DLLVM_ENABLE_ASSERTIONS=ON -DLLVM_BUILD_LLVM_DYLIB=ON
 ```
 
-- -DCMAKE_BUILD_TYPE=RelWithDebInfo
-    保留一定的Debug信息
-- -DLLVM_USE_LINKER=gold
-    使用gold作为链接器而非
+- -DCMAKE_BUILD_TYPE=RelWithDebInfo  
+  保留一定的Debug信息
+- -DLLVM_USE_LINKER=gold  
+  使用gold作为链接器而非
